@@ -1,0 +1,79 @@
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 5px gray;
+
+/*parenthesis*/
+}
+#p1{
+    font-family:'Josephin', sans-serif;
+    font-size: 20px;
+    color: black;
+    height:fit-content;
+
+center parenthesis}
+.parenthesis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#p2{
+    text-align: left;
+    font-family:'Josephin', sans-serif;
+    color: black;
+    margin: left 5px;
+}
+/*image size*/
+img { 
+    height: 300px;
+	width: 250px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text, .row{
+    position: relative;
+    z-index: 1;
+    isolation: isolate;
+}
+.center-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 000px;
+    z-index: 10;
+    background-color: black;
+}
+header .navigation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+header .navigation li{
+    list-style: none;
+    margin: 0 40px;
+}
+header .navigation li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+header .navigation li a:hover{
+    color: blue;
+
+}

@@ -1,0 +1,168 @@
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 5px gray;
+}
+.center-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 000px;
+    z-index: 10;
+    background-color: black;
+}
+
+header .logo{
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+}
+header .navigation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+header .navigation li{
+    list-style: none;
+    margin: 0 30px;
+}
+header .navigation li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+header .navigation li a:hover{
+    color: blue;
+}
+
+.umi{
+    position:absolute;
+    right: 480px;
+    top: 230px;
+    left: 280px;
+}
+.umi-img{
+    position: absolute;
+    height: 150px;
+    left: 100px;
+}
+.p1-umi{
+    position:absolute;
+    right: 450px;
+    top: 300px;
+    left: 225px;
+}
+
+
+
+.makoy{
+    position:absolute;
+    right: 480px;
+    top: 530px;
+    left: 280px;
+}
+.makoy-img{
+    position: absolute;
+    height: 150px;
+    left: 85px;
+    top: 600px;
+}
+.p1-makoy{
+    position:absolute;
+    right: 450px;
+    top: 600px;
+    left: 240px;
+}
+
+
+.miff-img{
+    position:absolute;
+    right: 1050px;
+    height: 150px;
+    top: 297px;
+}
+.miffy{
+    position: absolute;
+    right: 850px;
+    top: 230px;
+}
+.p1-miffy{
+    position: absolute;
+    right: 730px;
+    top: 300px;
+}
+
+
+.kuei-img{
+    position:absolute;
+    right: 1050px;
+    height: 150px;
+    top: 600px;
+}
+.kuei{
+    position: absolute;
+    right: 850px;;
+    top: 530px;
+}
+.p1-kuei{
+    position: absolute;
+    right: 725px;
+    top: 600px;
+    left: 250;
+}
+
+
+.euna-img{
+    position:absolute;
+    right: 420px;
+    height: 150px;
+    top: 297px;
+}
+.euna{
+    position: absolute;
+    right: 240px;
+    top: 230px;
+}
+.p1-euna{
+    position: absolute;
+    right: 70px;
+    top: 300px;
+}
+
+
+.alaska-img{
+    position:absolute;
+    right: 420px;
+    height: 150px;
+    top: 600px;
+}
+.alaska{
+    position: absolute;
+    right: 240px;
+    top: 530px;  
+}
+
+.p1-alaska{
+    position: absolute;
+    right: 100px;
+    top: 600px;
+}
+
+.update{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+}

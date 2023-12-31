@@ -1,0 +1,49 @@
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    text-shadow: 5px 5px 5px gray;
+}
+.center-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 000px;
+    z-index: 10;
+    background-color: black;
+}
+
+header .logo{
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 500;
+}
+header .navigation{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+header .navigation li{
+    list-style: none;
+    margin: 0 30px;
+}
+header .navigation li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+header .navigation li a:hover{
+    color: blue;
+}
